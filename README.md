@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Cascadia+Code&amp;weight=700&amp;size=17&amp;color=0078D7&amp;center=true&amp;width=400&amp;height=50&amp;duration=6000&amp;pause=4000&amp;repeat=true&amp;lines=Hi%2C+I%27m+Skyler.+AI+Application+Builder" alt="Hi, I'm Skyler. AI Application Builder" width="400" height="50" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Cascadia+Code&amp;weight=700&amp;size=17&amp;color=0078D7&amp;center=true&amp;pause=5000&amp;lines=Hi,+I'm+Skyler.+AI+Application+Builder" alt="Hi, I'm Skyler. AI Application Builder" width="400" />
   <p>
     <img src="assets/wave.svg" alt="👋" width="28" height="28" />
     <strong>I'm currently focused on AI Applications.</strong>
