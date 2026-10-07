@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="50" viewBox="0 0 400 50" role="img" aria-labelledby="title desc">
+  <title id="title">Hi, I'm Skyler. AI Application Builder</title>
+  <desc id="desc">A blue monospace greeting with a gentle typewriter animation.</desc>
+  <defs>
+    <clipPath id="reveal"><rect class="reveal" x="4" y="0" width="392" height="50" /></clipPath>
+  </defs>
+  <style>
+    .reveal { animation: type 105s steps(37,end) infinite; animation-delay:5s; }
+    .caret { transform:translateX(392px); animation: move 105s steps(37,end) infinite, blink .9s step-end infinite; animation-delay:5s,0s; }
+    @keyframes type { 0%,.2% { width:0 } 2.7%,99.6% { width:392px } 100% { width:0 } }
+    @keyframes move { 0%,.2% { transform:translateX(0) } 2.7%,99.6% { transform:translateX(392px) } 100% { transform:translateX(0) } }
+    @keyframes blink { 0%,48% { opacity:1 } 49%,100% { opacity:0 } }
+    @media (prefers-reduced-motion: reduce) { .reveal { animation:none } .caret { display:none } }
+  </style>
+  <g clip-path="url(#reveal)">
+    <text x="200" y="28" text-anchor="middle" fill="#0078D7" font-family="Cascadia Code,Consolas,DejaVu Sans Mono,monospace" font-size="17" font-weight="700">Hi, I'm Skyler. AI Application Builder</text>
+  </g>
+  <rect class="caret" x="4" y="13" width="1" height="19" fill="#0078D7" />
+</svg>
