@@ -1,6 +1,12 @@
 # Personal Projects
 
-我的个人 AI 应用、自动化与多模态创作实践。以下仅展示功能简介，三个项目仓库均设为私有。
+我的个人 AI 应用、自动化与多模态创作实践。
+
+## model-switch-kit
+
+公开工具：[geniusjia666/model-switch-kit](https://github.com/geniusjia666/model-switch-kit) — one install to run Codex on your Cursor models (local magpie gateway)。
+
+在本机安装 Codex CLI、Cursor CLI 和 magpie，并把 Codex 模型切换到自己的 Cursor 账号。
 
 ## Skill Sprint
 
