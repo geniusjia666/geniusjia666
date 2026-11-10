@@ -2,6 +2,14 @@
 
 我的个人 AI 应用、自动化与多模态创作实践。
 
+## Agent System Design
+
+A free MIT Agent Skill for choosing agent architectures, defining handoff contracts, and reviewing designs.
+
+- English repo: [geniusjia666/agent-system-design](https://github.com/geniusjia666/agent-system-design)
+- Example: [code-generation-review-fix](https://github.com/geniusjia666/agent-system-design/blob/main/examples/code-generation-review-fix.md)
+- 中文完整版本：[geniusjia666/agent-system-design-cn](https://github.com/geniusjia666/agent-system-design-cn)
+
 ## model-switch-kit
 
 公开工具：[geniusjia666/model-switch-kit](https://github.com/geniusjia666/model-switch-kit) — one install to run Codex on your Cursor models (local magpie gateway)。

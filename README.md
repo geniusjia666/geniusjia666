@@ -34,6 +34,7 @@
 <blockquote><p>🧪 <a href="PROJECTS.md">View Projects →</a></p></blockquote>
 
 <ul>
+  <li>🧭 <strong><a href="https://github.com/geniusjia666/agent-system-design">agent-system-design</a></strong> — A free MIT Agent Skill for choosing agent architectures, defining handoff contracts, and reviewing designs.</li>
   <li>🔁 <strong><a href="https://github.com/geniusjia666/model-switch-kit">model-switch-kit</a></strong> — one install to run Codex on your Cursor models (local magpie gateway).</li>
   <li>📚 <strong><a href="PROJECTS.md#skill-sprint">Skill Sprint</a></strong> — AI 知识提炼与学习复盘</li>
   <li>⚙️ <strong><a href="PROJECTS.md#local-automation">Local Automation</a></strong> — 个人监控与提醒</li>
