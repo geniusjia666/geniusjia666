@@ -1,0 +1,34 @@
+MS5225 — paste these 3 English slides into the official course PPT template.
+Do not switch to another template. Keep the course master, fonts, and footer.
+
+SLIDE 1 — Data source
+Title: Data source: third-bank queue observations
+Bullets:
+• Source: Bishop et al. (2018), Data in Brief 19:835–841, DOI 10.1016/j.dib.2018.05.101. Open supplementary mmc2 Excel files.
+• Coverage: three urban banks in Ogun State, Nigeria; four weeks × Monday–Friday per bank; stopwatch and recorder, 08:00–14:59.
+• Why Bank 3: 17,222 customers, complete 20-day panel, most stable service times (published SD 2.79 min vs ~6.04 min at Banks 1 and 2).
+• Variables (Excel headers X1, X2, X3 = paper Z1, Z2, Z3 for Bank 3):
+  – X1 waiting time (min) until booklet/cheque is collected
+  – X2 processing / service time (min) — primary simulation input
+  – X3 = X1 + X2 total time in system (integrity check)
+  – N customers attended that day
+
+SLIDE 2 — Why this day
+Title: Why this day: minimum deviation from the 20-day profile
+Bullets:
+• Baseline (unweighted mean of 20 daily sheets): N̄ = 861.10, X1̄ = 11.8585 min, X2̄ = 11.1607 min, X3̄ = 23.0191 min.
+• Formula: D_d = |N_d−N̄|/N̄ + |X1_d−X1̄|/X1̄ + |X2_d−X2̄|/X2̄ + |X3_d−X3̄|/X3̄. Select d* = arg min D_d.
+• Rank 1 (selected): W1-Sheet2, Tuesday, N=930, X1=12.009, X2=11.049, X3=23.059, D=0.1044.
+• Rank 2: W1-Sheet5 Friday, D=0.2264 — more than twice as far from the baseline.
+• Tuesday matches published Table 4: Z1=12, Z2=11, Z3=23, N3=930.
+
+SLIDE 3 — Cleaning
+Title: Cleaning: drop X2 min and max, then freeze the sample
+Bullets:
+• Ranking uses the raw 930 rows so selection is not distorted by later edits.
+• Integrity: all rows have X1,X2,X3>0 and X3=X1+X2.
+• Tukey 1.5×IQR fences on selected-day X2 flag 0 extra outliers.
+• Endpoint trim: delete the single X2 minimum (8.0046 min, customer 665) and single X2 maximum (13.9938 min, customer 200). Cleaned n = 928.
+• Mean X2 only moves from 11.0493 to 11.0494 min.
+• Frozen input: n=928; mean wait 12.009 min; mean service 11.049 min (SD 1.705); mean sojourn 23.058 min.
+• Later sections: fit service to cleaned X2; treat same-minute arrivals as ties; use a multi-server counter (~133 arrivals/hour).
